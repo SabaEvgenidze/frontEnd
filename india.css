@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.474), rgba(217, 207, 9, 0.074)), url("img/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 99%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    border-radius: 50px;
+}
+
+.navbar__logo {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgba(189, 189, 189, 0.76);
+}
+
+.navbar__logo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding-right: 60px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar__search {
+    background: radial-gradient(rgba(156, 126, 126, 0.458), rgba(255, 255, 255, 0.251));
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    max-height: 45px;
+    height: 135%;
+}
+
+.navbar__search input {
+    background: transparent;
+    border: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar__search button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+
+
+.navbar__search img {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+::placeholder {
+    color: black;
+    margin: 20px;
+}
+
+.main__content {
+    width: 400px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.main__content span {
+    color: orange;
+}
+
+.main__content button {
+    margin-top: 20px;
+    background-color: orange;
+    border: 2px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.main__content h1 {
+    font-size: 40px;
+}
+
+.main__content p {
+    font-size: 20px;
+}
+
+.main__content a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 1s ease 0s;
+}
+
+.main__content a:hover {
+    transition: 1s ease 0s;
+}
+
+.main__content__registration {
+    background: radial-gradient(rgba(81, 68, 68, 0.682), rgba(81, 68, 68, 0.682));
+    width: 300px;
+    height: 400px;
+    top: 150px;
+    right: 100px;
+    position: absolute;
+    padding: 20px;
+}
+
+.main__content__registration__lab {
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.main__content__registration__button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: orange;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: transparent;
+    outline: none;
+}
+
+.main__content__registration__button:hover {
+    background-color: #ff9900;
+}

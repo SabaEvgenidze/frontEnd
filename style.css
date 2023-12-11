@@ -15,10 +15,8 @@ button {
 header {
     display: flex;
     justify-content: flex-end;
-    padding: 40px;
+    padding: 30px;
     align-items: center;
-    margin: 10px;
-    border-radius: 40px;
     background-color: rgba(61, 85, 85, 0.532);
     mask-repeat: no-repeat;
     transition: all 0.3s ease 0.0s;
@@ -62,17 +60,7 @@ header img {
     font-size: 20px;
 }
 
-button {
-    padding: 10px 30px;
-    transition: all 0.4s ease 0.0s;
-    margin-left: 50px;
-    background-color: rgb(89, 89, 212);
-    border-radius: 30px;
-}
-
-button:hover {
-    background-color: antiquewhite;
-    color: black;
-    padding: 11px 60px;
-    border-radius: 40px;
+select {
+    padding: 5px;
+    margin: 10px;
 }
